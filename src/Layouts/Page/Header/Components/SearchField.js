@@ -9,13 +9,15 @@ const WrapperInput = styled.div`
 
 const Input = styled.input`
     outline: none;
-    border-radius: 0px;
-    border: solid #152842 1px;
+    border-radius: 24px;
+    border: solid #E2E8F0 1px;
     background-color: #F8FAFC;
-    color: #152842;
+    color: #94A3B8;
     width: 100%;
     &:hover {
-        background: linear-gradient(180deg, #DFEAF1 0%, #CFDDE8 100%);
+        background-color: #F9FBFD;
+        border: solid #E8EDF3 1px;
+        color: #A9B5C6;
     }
     &:focus {
         background: white;
